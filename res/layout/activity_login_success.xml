@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="25sp" />
+    
+    <View  
+        android:layout_width="fill_parent" 
+        android:layout_marginTop="5dp" 
+        android:layout_height="2dip"  
+        android:background="#FF909090" /> 
+    
+    <Button
+        android:id="@+id/listbyurgency"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="urgencyList"
+        android:text="@string/listByUrgency" />
+    
+    <View  
+        android:layout_width="fill_parent" 
+        android:layout_marginTop="8dp" 
+        android:layout_height="2dip"  
+        android:background="#FF909090" /> 
+    
+    <EditText
+        android:id="@+id/textid"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/Enter_ID" />
+
+    	<requestFocus />
+
+    <Button
+        android:id="@+id/add_a_patient"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="Add_a_patient"
+        android:text="@string/add_a_patient" />
+    
+     <Button
+        android:id="@+id/check_in"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="checkin"
+        android:text="@string/checkin" />
+     
+     <Button
+         android:id="@+id/viewRecord"
+         android:layout_width="231dp"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="8dp"
+         android:onClick="view_record"
+         android:text="@string/viewPatient" />
+    
+    <Button
+        android:id="@+id/add_vitalsign"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="Add_VitalSign"
+        android:text="@string/add_vitalsign" />
+    
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="back"
+        android:text="@string/Logout" />
+ 
+
+</LinearLayout>

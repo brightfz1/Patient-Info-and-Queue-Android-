@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PhaseII</string>
+    <string name="action_settings">Settings</string>
+    <string name="Login">Login</string>
+    <string name="Username">Username:aaa</string>
+    <string name="Password">Password:111</string>
+    <string name="submit">Submit</string>
+    <string name="welcome">Welcome!</string>
+    <string name="add_a_patient">Add New Patient</string>
+    <string name="patient_information">Patient Information</string>
+    <string name="lastname">   Last Name</string>
+    <string name="firstname">  First Name</string>
+    <string name="dob">Date of Birth:YYYY/MM/DD</string>
+    <string name="hcnumber">Health Card Number</string>
+    <string name="add_vitalsign">Record Vital Sign</string>
+    <string name="add_vital_sign">Add Vital Sign</string>
+    <string name="input_blood_pressure">Diastolic</string>
+    <string name="input_blood_pressure2">Systolic</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="input_temperature">Input Temperature</string>
+    <string name="input_heart_rate">Input Heart Rate</string>
+    <string name="blood_pressure">Blood Pressure</string>
+    <string name="temperature">Temperature</string>
+    <string name="HCardNumber">HCnumber</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="Nurse">Nurse</string>
+    <string name="Physicians">Physicians</string>
+    <string name="Record_Prescription">Record Prescription</string>
+    <string name="Enter_ID">Health Card Number</string>
+    <string name="viewPatient">View Patient\'s Record</string>
+    <string name="checkin">Check-in Patient</string>
+    <string name="listByUrgency">Urgency Patient List</string>
+    <string name="add_prescription_title">Add Prescription</string>
+    <string name="Medication">Medication</string>
+    <string name="inputMedication">Input Medication</string>
+    <string name="instruction">Instruction</string>
+    <string name="input_instruction">Input Instruction</string>
+    <string name="Name">Name</string>
+    <string name="title_activity_view_record">View Record</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Patient_Record">Detail of Record</string>
+    <string name="nametext">Name:</string>
+    <string name="hcnumbertext">HC Number:</string>
+    <string name="Birthdaytext">Birthday:</string>
+    <string name="arrivaltimetext">Arrival Time:</string>
+    <string name="urgencytext">Urgency:</string>
+    <string name="seedoctortext">See Doctor:</string>
+    <string name="vitalsignbutton">Vital Sign</string>
+    <string name="prescriptionbutton">Prescription</string>
+    <string name="title_activity_view_vital_sign">ViewVitalSignActivity</string>
+    <string name="title_activity_view_prescription">ViewPrescriptionActivity</string>
+    <string name="medicationtext">Medication:</string>
+    <string name="instructiontext">Instruction:</string>
+    <string name="Logout">Logout</string>
+
+</resources>

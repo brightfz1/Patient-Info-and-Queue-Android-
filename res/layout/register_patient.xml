@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/patient_information"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="61sp"
+        android:paddingTop="20sp"
+        android:text="@string/patient_information"
+        android:textSize="23sp" />
+
+    <LinearLayout
+        android:id="@+id/register_student"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/textlastname_field"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/lastname"
+            android:textSize="14sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/textfirstname_field"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="@string/firstname"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textdob_field"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_student"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:ems="50"
+        android:gravity="center"
+        android:hint="@string/dob"
+        android:textSize="14sp" >
+
+    </EditText>
+    
+    <EditText
+        android:id="@+id/texthcnumber_field"
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register_student"
+        android:layout_marginTop="93dp"
+        android:ems="50"
+        android:gravity="center"
+        android:hint="@string/hcnumber"
+        android:textSize="14sp" >
+
+    </EditText>
+    
+    <Button
+        android:id="@+id/confirm_patient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_student"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:onClick="Register_A_Patient"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confirm_patient"
+        android:layout_alignRight="@+id/confirm_patient"
+        android:layout_below="@+id/confirm_patient"
+        android:layout_marginTop="29dp"
+        android:onClick="back"
+        android:text="@string/back" />
+
+</RelativeLayout>

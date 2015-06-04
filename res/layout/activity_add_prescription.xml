@@ -1,0 +1,105 @@
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AddVitalsignActivity" >
+
+    <TextView
+        android:id="@+id/add_prescription_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_prescription_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/hcardnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hcnumbertext"
+        android:layout_alignBottom="@+id/hcnumbertext"
+        android:layout_alignLeft="@+id/instructions"
+        android:text="@string/HCardNumber" />
+
+    <TextView
+        android:id="@+id/hcnumbertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_prescription_title"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@+id/medication"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/hcnumber"
+        android:textSize="14sp" />
+
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/instruction"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/input_instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/input_medication"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/input_instruction"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/add_prescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/instructions"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:onClick="add_prescription"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/add_prescription"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:onClick="back"
+        android:text="@string/back" />
+
+    <EditText
+        android:id="@+id/input_medication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hcnumbertext"
+        android:layout_below="@+id/hcnumbertext"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/inputMedication"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/medication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_medication"
+        android:layout_alignBottom="@+id/input_medication"
+        android:layout_alignLeft="@+id/hcardnumber"
+        android:text="@string/Medication"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

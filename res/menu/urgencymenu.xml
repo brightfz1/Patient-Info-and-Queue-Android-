@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/urgency_checkin"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/checkin"/>
+    <item android:id="@+id/urgency_add_vitalsign" android:title="@string/add_vital_sign"></item>
+    <item android:id="@+id/urgency_record" android:title="@string/viewPatient"></item>
+    <item android:id="@+id/backbutton" android:title="@string/back"></item>
+
+</menu>

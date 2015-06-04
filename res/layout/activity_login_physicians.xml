@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="@string/welcome"
+        android:textSize="30sp" />
+	
+    <EditText
+        android:id="@+id/textid"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:ems="10"
+        android:hint="@string/Enter_ID" />
+
+    	<requestFocus />
+    
+    <Button
+        android:id="@+id/add_a_patient"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:onClick="view_record"
+        android:text="@string/viewPatient" />
+    
+    <Button
+        android:id="@+id/add_vitalsign"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:onClick="Add_Prescription"
+        android:text="@string/Record_Prescription" />
+    
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:onClick="back"
+        android:text="@string/Logout" />
+
+</LinearLayout>
